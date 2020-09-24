@@ -6,7 +6,7 @@
 		{
 			"label": "build gcc",
 			"type": "shell",
-			"command": "/usr/bin/gcc -lm -g ${fileDirname}/${fileBasename} -o ${fileDirname}/${fileBasenameNoExtension}",
+			"command": "/usr/bin/g++ -lm -g ${fileDirname}/${fileBasename} -o ${fileDirname}/${fileBasenameNoExtension}",
             "problemMatcher": [
                 "$gcc"
             ],
