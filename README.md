@@ -1,13 +1,14 @@
-# podTest
+# 情報オリンピック　レギオ講習会用プログラムソース
 
-gitPod をベースに C/C++ の初歩教育をおこなうための環境テスト
+gitPod でそのまま動くようにしています。
 
 ## gitPod での使い方
 
 初回アクセス
 
-1. github にアカウントをとっておく
-2. https://gitpod.io/#https://github.com/tomiokamada/podTest にアクセス
+1. github にアカウントを取得し、login しておきましょう。
+2. https://gitpod.io/#https://github.com/tomiokamada/regio にアクセス
+   * というか、右上に GitPod アイコンが出ているので、それをクリック！
 3. 1-2分待ったほうがよいかも。（いくつかplugin が load されたりします）
 
 ２回目からのアクセス
@@ -51,9 +52,10 @@ gitpod /workspace/podTest/samples $
 * .theia
   * tasks.json: Build の選択肢設定
   * launch.json: プログラム起動の選択肢設定
-* tests
-  * 今回ファイルをおいた場所
-  * 別にプログラムファイルはお好きな場所に。
+* io
+  * C/C++ の入出力サンプル（2 がついたものは、ファイル入出力例）
+* samples
+  * レギオ入門編のプログラム例など
 * .gitpod.Dockerfile, .gitpod.yml: 実行環境の docker 設定および extension 設定 (参考：[C/C++](https://www.gitpod.io/docs/languages/cpp/), [.gitpod.yml](https://www.gitpod.io/docs/config-gitpod-file/))
 * README.md: このファイル
 
