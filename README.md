@@ -46,6 +46,17 @@ gitpod /workspace/podTest/samples $
 * 演習時間中などに、学生の workspace の状態をみたければ、workspace 実行時の URL を送ってもらえば OK.
   * `注`： https://gitpod.io/workspaces/ にて、当該 workspace を公開状態にしてもらう必要がある。
 
+## VS code などで使いたい
+
+VS code 左側のメニューの上から３つめぐらいにある「リポジトリのクローン」を選んで、URL に 
+ git@github.com:tomiokamada/regio.git
+を指定してください。
+
+先に、git のセットアップを済ませたり、C/C++ extension をいれたりしないといけませんが。
+
+* [参考資料](https://kobeucsenshu.github.io/ideinfo/)
+
+
 
 ## 中身のファイルの解説
 
