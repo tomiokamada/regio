@@ -7,7 +7,7 @@ int nth(int skip, int i) {
 	return i+1;
 }
 
-bool check(int skip, int n, vector<int> vec) {
+bool check(int skip, int n, vector<int> & vec) {
 	int d = vec[nth(skip,1)]-vec[nth(skip,0)];
 	for(int i=2; i< n; i++) {
 		if(vec[nth(skip,i)]-vec[nth(skip, i-1)]!= d)

@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-bool check(int skip, int n, vector<int> vec) {
+bool check(int skip, int n, vector<int> & vec) {
 	// skip 番目を無視して、
 	// 等差数列になっているかチェック
 	return true; // or false
