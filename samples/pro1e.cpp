@@ -7,7 +7,7 @@ int main(void)
     for (int j = 0; j < 5; j++) {
         int d;
         cin >> d;
-        v.push_back(d);
+        v.push_back(d); // 要素追加
     }
     // あるいは、最初からサイズを指定して
     // 以下のように書くのでもOK. 配列っぽい。
