@@ -9,6 +9,12 @@ int main(void)
         cin >> d;
         v.push_back(d);
     }
+    // あるいは、最初からサイズを指定して
+    // 以下のように書くのでもOK. 配列っぽい。
+    // vector<int> v(5);
+    // for (int j = 0; j < 5; j++) {
+    //    cin >> v[j];
+    //}
     int s = 0;
     for (int j = 0; j < 5; j++) {
         s += v[j];
