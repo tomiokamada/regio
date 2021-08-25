@@ -5,7 +5,9 @@ int main(void)
 {
     vector<int> v;
     for (int j = 0; j < 5; j++) {
-        cin >> v[j];
+        int d;
+        cin >> d;
+        v.push_back(d);
     }
     int s = 0;
     for (int j = 0; j < 5; j++) {
