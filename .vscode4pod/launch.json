@@ -10,8 +10,8 @@
             "name": "Debug",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "initCommands": [
-		"break main",	// remove this if you don't want to set breakpoint at main	
-		"cd ${fileDirname}"
+                // "break main", // uncomment this if you want to set a breakpoint at main function
+                "cd ${fileDirname}"
 	    ],
             "arguments": "",
             "preLaunchTask": "build gcc"
