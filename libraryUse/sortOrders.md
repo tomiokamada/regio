@@ -56,3 +56,8 @@ AAA 60
 AAB 20
 ABA 20
 ```
+
+## テストデータ
+
+* 入力：[data4sortOrders/input](data4sortOrders/input)
+* 出力：[data4sortOrders/output](data4sortOrders/output)
