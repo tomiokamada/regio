@@ -1,8 +1,13 @@
 #include <iostream>
 #include <vector>
+#include <fstream>
 using namespace std;
 
 int main(void) {
+  // debug の際は、ファイルから読むほうが楽
+  // ifstream ifs("input/input1.txt");
+  // cin.rdbuf(ifs.rdbuf());
+
   int n;
   cin >> n;
   vector<int> vec(n);
