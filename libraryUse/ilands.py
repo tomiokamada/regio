@@ -2,7 +2,7 @@ from collections import deque
 
 # debugの時はファイルから読み込む方が楽
 # 環境によっては、 `maxRange/input/input1.txt` などに変更しましょう
-# input = open('data4ilands/sample.in', 'r').readline
+input = open('data4ilands/sample.in', 'r').readline
 
 directions = [[1, 0], [-1, 0], [0, 1], [0, -1],
               [1, 1], [-1, -1], [-1, 1], [1, -1]]
@@ -41,7 +41,7 @@ class Solver:
                 x, y = searching.pop()
                 for direct1 in directions:
                     dx, dy = direct1
-                    [nx, ny] = [x + dx, y + dy]
+                    nx, ny = [x + dx, y + dy]
                     if self.range_check(nx, ny):
                         continue
                     if self.c[ny][nx] > 0:
