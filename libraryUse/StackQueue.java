@@ -2,7 +2,7 @@ package libraryUse;
 
 import java.util.*;
 
-public class StackQueueu {
+public class StackQueue {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
         Queue<Integer> queue = new ArrayDeque<>();
