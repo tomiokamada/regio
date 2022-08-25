@@ -2,7 +2,7 @@ from collections import deque
 
 # debugの時はファイルから読み込む方が楽
 # 環境によっては、 `maxRange/input/input1.txt` などに変更しましょう
-input = open('data4ilands/sample.in', 'r').readline
+# input = open('data4ilands/sample.in', 'r').readline
 
 directions = [[1, 0], [-1, 0], [0, 1], [0, -1],
               [1, 1], [-1, -1], [-1, 1], [1, -1]]
