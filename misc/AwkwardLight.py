@@ -1,4 +1,4 @@
-input = open('awkwardlight_data/sample.in', 'r').readline
+# input = open('awkwardlight_data/sample.in', 'r').readline
 
 
 def search_rows(y, x, matrix) -> bool:
