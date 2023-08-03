@@ -3,7 +3,7 @@
 説明
 * [C++版](https://www.nc.ii.konan-u.ac.jp/projects/JOIregio/slides/regioIntro2.pdf)
 * 利用問題：
-  * パソコン甲子園2012年予選問題３ [pdf](http://web-ext.u-aizu.ac.jp/pc-concours/2013/download/pastexam/2012pre.pdf)
+  * パソコン甲子園2012年予選問題３ [pdf](http://web-ext.u-aizu.ac.jp/pc-concours/2013/download/pastexam/2012pre.pdf#page=4)
 
 プログラム
 

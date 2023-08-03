@@ -15,3 +15,8 @@
     * 値渡し [C++: pro1e.cpp](./pro1e.cpp),
     * 参照利用 [C++: pro1f.cpp](./pro1f.cpp)
 
+* 関数呼び出しと値渡し・参照渡し
+  * int の例 [C++: funcTest0.cpp](./funcTest0.cpp)
+  * vector の例　[C++: funcTest1.cpp](./funcTest1.cpp)  
+  * [解説pdf](https://www.nc.ii.konan-u.ac.jp/projects/JOIregio/slides/regioIntro2.pdf#page=11)
+
