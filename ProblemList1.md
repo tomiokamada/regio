@@ -1,7 +1,7 @@
 
 # 初心者向け問題リスト
 
-以下は、[レギオ向け問題セット(https://atcoder.jp/contests/regio2020kobe1)（レギオ参加者用 AtCoder アカウント必要）の問題のうち、情報オリンピック予選問題の過去問について、
+以下は、[レギオ向け問題セット](https://atcoder.jp/contests/regio2020kobe1)（レギオ参加者用 AtCoder アカウント必要）の問題のうち、情報オリンピック予選問題の過去問について、
 [AtCoder JOI過去問](https://atcoder.jp/contests/archive?ratedType=0&category=200&keyword=)へのリンクをリストアップしたものです。
 
 <!--
