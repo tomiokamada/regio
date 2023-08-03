@@ -33,4 +33,12 @@
 |---:|---:|
 |16 | 13|
 
+## 解説
 
+pdf資料 [C++](https://www.nc.ii.konan-u.ac.jp/projects/JOIregio/slides/regioAlgo1.pdf)
+
+プログラム例
+* 三重ループ
+  * [C++](./tripleLoop.cpp), [python](./tripleLoop.py), [Java](./TripleLoop.java)
+* 動的計画法(DP)
+  * [C++](./dp.cpp), [python](./dp.py), [Java](./Dp.java)  
