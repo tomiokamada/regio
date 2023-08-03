@@ -4,5 +4,5 @@
 
 [Awkward Lights](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1308)
 
-プログラム： [python](./AwkwardLight.py), [サンプルデータ](./awkwardlight_data/)
+プログラム： [python: AwkwardLight.py](./AwkwardLight.py), [サンプルデータ](./awkwardlight_data/)
 

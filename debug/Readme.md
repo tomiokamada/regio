@@ -9,10 +9,10 @@ debugger で、step 実行などをおこなうためのサンプル。
 を求めるプログラムを書いたつもりなのに、答えが 1.0 になるというサンプル。
 
 プログラム
-* [C](./debug_test.c)
-* [C++](./debug_test.cpp)
-* [python](./debug_test.py) `//` を使って、あえて間違えている感が強いですがご容赦を。
-* [Java](./DebugTest0.java)
+* [C: debug_test.c](./debug_test.c)
+* [C++: debug_test.cpp](./debug_test.cpp)
+* [python: debug_test.py](./debug_test.py) `//` を使って、あえて間違えている感が強いですがご容赦を。
+* [Java: DebugTest0.java](./DebugTest0.java)
 
 デバッグ環境の使い方情報
 * [VS Code](https://www.nc.ii.konan-u.ac.jp/projects/debugEnv/vscode/)

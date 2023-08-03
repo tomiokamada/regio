@@ -21,11 +21,11 @@
 ## 単純なライブラリ利用コード
 
 * Stack, Queue, 優先度キュー
-  * int 版: [C++](./stackqueue.cpp), [python](./stackqueue.py), [Java](./StackQueue.java)
-  * 複素数（or 座標）版： [C++](./stackqueue2.cpp), [python](./stackqueue2.py), [Java](./StackQueue2.java)
+  * int 版: [C++: stackqueue.cpp](./stackqueue.cpp), [python: stackqueue.py](./stackqueue.py), [Java: StackQueue.java](./StackQueue.java)
+  * 複素数（or 座標）版： [C++: stackqueue2.cpp](./stackqueue2.cpp), [python: stackqueue2.py](./stackqueue2.py), [Java: StackQueue2.java](./StackQueue2.java)
 
 ## 利用例
 
 * [島はいくつある？](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1160&lang=jp), ACM ICPC2009 国内予選, Problem B
-* [C++](./ilands.cpp), [python](./ilands.py), [Java](./Ilands.java)
+* [C++: ilands.cpp](./ilands.cpp), [python: ilands.py](./ilands.py), [Java: Ilands.java](./Ilands.java)
 * [データ＆回答](./data4ilands/)

@@ -7,7 +7,7 @@
 ## 幅優先探索
 
 * [Amazing Mazes](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1166&lang=jp), ACM ICPC 国内予選 Problem B
-  * [C++](./maze.cpp), [python](./maze.py)
+  * [C++: maze.cpp](./maze.cpp), [python: maze.py](./maze.py)
   * [データ＆回答](./mazeData/)
 ## 最短経路
 
@@ -16,12 +16,12 @@
 * 始点から終点まで、最短経路で移動したい 
 
 プログラム: 
-* ダイクストラ法: [C++](./hopDijkstra.cpp), [python](./hopDijkstra.py)
-* A*: [C++](./hopAstar.cpp), [python](./hopAstar.py)
+* ダイクストラ法: [C++: hopDijkstra.cpp](./hopDijkstra.cpp), [python: hopDijkstra.py](./hopDijkstra.py)
+* A*: [C++: hopAstar.cpp](./hopAstar.cpp), [python: hopAstar.py](./hopAstar.py)
 * [データ＆回答](./hopData/)
 
 ## 応用問題
 
 * [崖登り](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1150&lang=jp), ACM ICPC2007 国内予選, Problem D
-* [C++](./cliff.cpp), [python](./cliff.py)
+* [C++: cliff.cpp](./cliff.cpp), [python: cliff.py](./cliff.py)
 * [データ＆回答](./cliffData/)

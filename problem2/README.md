@@ -7,8 +7,8 @@
 
 プログラム
 
-* 未完成版 [C++](./regio14a.cpp), [C](./regio14a.cpp)
-* 完成例 [C++](./regio14aFixed.cpp), [C](./regio14aFixed.c)
+* 未完成版 [C++: regio14a.cpp](./regio14a.cpp), [C: regio14a.c](./regio14a.c)
+* 完成例 [C++: regio14aFixed.cpp](./regio14aFixed.cpp), [C: regio14aFixed.c](./regio14aFixed.c)
 
 
 入力例
@@ -18,7 +18,6 @@
 ```
 5
 1 2 3 6 4 5
-
 ```
 
 * [2](./sample2.txt)
