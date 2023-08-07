@@ -15,10 +15,10 @@ class TripleLoop {
             numbers[i] = input.nextInt();
         }
         int maxSum = 0;
-        for (int from = 0; from < n - 1; from++) {
-            for (int to = from + 1; to < n; to++) {
+        for (int from = 0; from <= n - 1; from++) {
+            for (int to = from + 1; to <= n; to++) {
                 int sum = 0;
-                for (int i = from; i <= to; i++) {
+                for (int i = from; i < to; i++) {
                     sum += numbers[i];
                 }
                 if (sum > maxSum) maxSum = sum;
