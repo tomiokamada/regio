@@ -7,8 +7,8 @@
 
 プログラム
 
-* 未完成版 [C++: regio14a.cpp](./regio14a.cpp), [C: regio14a.c](./regio14a.c)
-* 完成例 [C++: regio14aFixed.cpp](./regio14aFixed.cpp), [C: regio14aFixed.c](./regio14aFixed.c)
+* 未完成版 [C++: regio14a.cpp](./regio14a.cpp), [C: regio14a.c](./regio14a.c), [Python: regio14a.py](./regio14a.py)
+* 完成例 [C++: regio14aFixed.cpp](./regio14aFixed.cpp), [C: regio14aFixed.c](./regio14aFixed.c), [Python: regio14aFixed.py](./regio14aFixed.py)
 
 
 入力例
@@ -26,5 +26,4 @@
 4
 5 7 9 11 12
 ```
-
 
