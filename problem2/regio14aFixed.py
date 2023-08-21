@@ -9,10 +9,10 @@ def nth(skip, i):
         return i + 1
 
 
-def check(skip, n, vec):
-    d = vec[nth(skip, 1)] - vec[nth(skip, 0)]
+def check(skip, n, lst):
+    d = lst[nth(skip, 1)] - lst[nth(skip, 0)]
     for i in range(2, n):
-        di = vec[nth(skip, i)] - vec[nth(skip, i - 1)]
+        di = lst[nth(skip, i)] - lst[nth(skip, i - 1)]
         if di != d:
             return False
     return True
@@ -21,10 +21,10 @@ def check(skip, n, vec):
 def main():
     n = int(input())
     line = input()
-    vec = list(map(int, line.split()))
+    lst = list(map(int, line.split()))
     for skip in range(n + 1):
-        if check(skip, n, vec):
-            print(vec[skip])
+        if check(skip, n, lst):
+            print(lst[skip])
             return
 
 
