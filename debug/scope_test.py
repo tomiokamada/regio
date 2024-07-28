@@ -16,7 +16,7 @@ max_count = -1
 g_ans = 0
 
 
-def count_a():
+def count_a(line):
     num_a = 0   # num_a, c はローカル変数
     for c in line:
         if c == 'a':
@@ -26,11 +26,11 @@ def count_a():
 
 
 for _ in range(N):
-    line = input()    # このあたりもグローバル変数
-    ans0 = count_a()  # このあたりもグローバル変数
-    print(line, ans0, g_ans, max_count)
+    line0 = input()    # このあたりもグローバル変数
+    ans0 = count_a(line0)  # このあたりもグローバル変数
+    print(line0, ans0, g_ans, max_count)
     if ans0 > max_count:
-        kouho = line
+        kouho = line0
         max_count = ans0
 
 print(kouho)
