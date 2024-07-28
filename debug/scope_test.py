@@ -16,12 +16,12 @@ max_count = -1
 g_ans = 0
 
 
-def count_a(line):
+def count_a(line):  #line はローカル変数
     num_a = 0   # num_a, c はローカル変数
     for c in line:
         if c == 'a':
             num_a += 1
-    g_ans = num_a  # 実はローカル変数作成になっている
+    g_ans = num_a  # 実はグローバル変数アクセス「じゃない」
     return num_a
 
 
