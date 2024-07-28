@@ -30,5 +30,7 @@ debugger で、step 実行などをおこなうためのサンプル。
 
 * [python: debug_test2.py](./debug_test2.py) 
 
+## scope の確認
 
+* [python: scope_test.py](./scope_test.py)
 
