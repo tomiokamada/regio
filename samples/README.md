@@ -24,5 +24,8 @@
   * [解説pdf](https://www.nc.ii.konan-u.ac.jp/projects/JOIregio/slides/regioIntro2.pdf#page=11)
 
 * Python 関数呼び出し
-  * int の例 [func_test0.py](./func_test0.py)
-  * List の例 [func_test1.py](./func_test1.py)
+  * [Debug 編](../debug/Readme.md) をみてください
+
+*  関数の練習問題：[第１２回日本情報オリンピック 予選 C - 看板 (Signboard)](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_c)
+  * Python サンプル：[作りかけ](./signboard_ongoing.py), [解答例](./signboard_sample1.py)
+ 
