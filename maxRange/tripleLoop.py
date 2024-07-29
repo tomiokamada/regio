@@ -1,6 +1,6 @@
 # debugの時はファイルから読み込む方が楽
 # 環境によっては、 `maxRange/input/input1.txt` などに変更しましょう
-# input = open('input/input1.txt', 'r').readline
+#import sys; sys.stdin = open('input/input1.txt', 'r')
 
 
 def main():

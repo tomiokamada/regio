@@ -10,6 +10,12 @@
 # aaabbaac
 # aaaccaac
 
+# debug tips
+# debug の際、入力データを与えるのはちょっと面倒です（実行制御に集中したい）。
+# 標準入力の代わりにファイル（今回は `scope_test_input.txt`）からデータを
+# 読み込みたい場合は、直後の行を有効化してください。完成時は、コメントに戻すのを忘れずに！
+#import sys; sys.stdin = open('scope_test_input.txt', 'r')
+
 N = int(input())  # このあたりはグローバル変数
 kouho = ""
 max_count = -1
@@ -28,7 +34,7 @@ def count_a(line):  #line はローカル変数
 for _ in range(N):
     line0 = input()    # このあたりもグローバル変数
     ans0 = count_a(line0)  # このあたりもグローバル変数
-    print(line0, ans0, g_ans, max_count)
+    # print('msg:', line0, ans0, g_ans, max_count)
     if ans0 > max_count:
         kouho = line0
         max_count = ans0

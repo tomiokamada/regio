@@ -1,6 +1,6 @@
 from collections import deque
-
-input = open('mazeData/B1.in', 'r').readline
+#ファイルから読み込みたい場合は、直後の行を有効化してください。完成時は、コメントに戻すのを忘れずに！
+#import sys; sys.stdin =  open('mazeData/B1.in', 'r')
 directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
 
 

@@ -1,7 +1,7 @@
 import math
 from heapq import heappush, heappop
-# input = open('cliffData/D1.in', 'r').readline
-
+#ファイルから読み込みたい場合は、直後の行を有効化してください。完成時は、コメントに戻すのを忘れずに！
+#import sys; sys.stdin =  open('cliffData/D1.in', 'r', )
 
 one_hop = [
     [[1, 2], [1, 1], [1, 0], [1, -1], [1, -2], [2, 1], [2, 0], [2, -1], [3, 0]],

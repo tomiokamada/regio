@@ -1,6 +1,6 @@
 # デバッガ利用時など標準入力を使いたい場合は、変更を。
 # ファイル名は環境によっては 'problem2/sample1.txt' などに変更を。
-# input = open('sample1.txt', 'r').readline
+#import sys; sys.stdin = open('sample1.txt', 'r')
 
 
 def check(skip, n, vec):

@@ -1,6 +1,6 @@
 # debugの時はファイルから読み込む方が楽
 # 環境によっては、 `libraryUse/data4sortOrders/input/input1.txt` などに変更しましょう
-# input = open('data4sortOrders/input/input5.txt', 'r').readline
+#import sys; sys.stdin = open('data4sortOrders/input/input5.txt', 'r')
 
 
 def main():

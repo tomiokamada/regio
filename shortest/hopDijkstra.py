@@ -1,7 +1,7 @@
 import sys
 from heapq import heappush, heappop
-
-# input = open('hopData/sample.in', 'r').readline
+#ファイルから読み込みたい場合は、直後の行を有効化してください。完成時は、コメントに戻すのを忘れずに！
+#import sys; sys.stdin =  open('hopData/sample.in', 'r', )
 ONE_HOP = 10.00001
 MAX = sys.float_info.max
 
